@@ -5,14 +5,18 @@
 }
 
 body {
-    background-color: #f6f8fc;
+    background-color: #1356dc;
 }
 
 .content {
     width: 100vw;
     height: 100vh;
     padding: 1rem;
-    background-color: #fff;
+    background-color: #eaed0d;
+}
+
+.content .logo  {
+    width: 200px;
 }
 
 @media screen and (min-width: 992px) {
@@ -23,3 +27,14 @@ body {
         border-radius: 1rem;
     }
 }
+
+.pokebola {
+    height: auto;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    opacity: .2;
+    width: auto;
+    background-image: none;
+}
+
